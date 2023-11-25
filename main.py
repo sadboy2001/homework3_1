@@ -1,5 +1,5 @@
-from modules.csv import takeBooks
-from modules.json import genJson
+from modules.csv import take_books
+from modules.json import gen_json
 
-books = takeBooks()
-genJson(books)
+books = take_books()
+gen_json(books)
